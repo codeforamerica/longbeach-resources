@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'bootstrapform',
     'adminsortable2',
     'wealthmap',
-    'longbeach_resources',
+    'matcher',
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -141,6 +141,6 @@ REST_FRAMEWORK = {
 # Set this to the Opportunity model specific to your use case
 # E.g. LongBeachOpportunity
 WEALTHMAP_SEARCHABLE_OPPORTUNITY = dict(
-    app_label='longbeach_resources',
+    app_label='matcher',
     model_name='LongBeachOpportunity'
 )
