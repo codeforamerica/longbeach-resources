@@ -34,7 +34,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
+    'bootstrapform',
+    'adminsortable2',
     'wealthmap',
+    'longbeach_resources',
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -136,4 +140,7 @@ REST_FRAMEWORK = {
 
 # Set this to the Opportunity model specific to your use case
 # E.g. LongBeachOpportunity
-WEALTHMAP_SEARCHABLE_OPPORTUNITY = 'LongBeachOpportunity'
+WEALTHMAP_SEARCHABLE_OPPORTUNITY = dict(
+    app_label='longbeach_resources',
+    model_name='LongBeachOpportunity'
+)
