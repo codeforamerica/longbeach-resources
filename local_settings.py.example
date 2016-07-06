@@ -13,7 +13,5 @@ DATABASES = {
     }
 }
 
-COMPRESS_ENABLE = True
-COMPRESS_ROOT = '/tmp/'
-
+# Before setting this to `False`, make sure to set ALLOWED_HOSTS
 DEBUG = True
