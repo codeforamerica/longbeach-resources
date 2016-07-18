@@ -1,6 +1,7 @@
 from django import forms
 from wealthmap import models as wm_models
 
+
 class SearchModelForm(forms.ModelForm):
 
     class Meta:
