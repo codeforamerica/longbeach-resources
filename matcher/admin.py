@@ -7,3 +7,4 @@ from . import forms
 @admin.register(wm_models.get_search_model())
 class OpportunityAdmin(wm_admin.AddCreator):
     form = forms.SearchModelForm
+    list_display = ('title', 'agency', 'updated_at')
