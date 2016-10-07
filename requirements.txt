@@ -1,3 +1,6 @@
-# Included because many Paas's require a requirements.txt file in the project root
+# Included because Heroku requires a requirements.txt file in the project root
 # Just installs the production requirements.
 -r requirements/app.txt
+dj-database-url==0.4.0
+gunicorn==19.4.5
+whitenoise==2.0.6

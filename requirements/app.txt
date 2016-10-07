@@ -1,3 +1,3 @@
 Django==1.9.7
 psycopg2==2.6.1
-git+git://github.com/codeforamerica/wealthmap#egg=django-wealthmap
+-e git+git://github.com/codeforamerica/wealthmap@d7dbf2f79545e8df5c1f960f9484057d3b2f640d#egg=django-wealthmap
